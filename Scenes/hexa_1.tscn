@@ -8,5 +8,11 @@
 [node name="coxa" parent="." instance=ExtResource("2_em1po")]
 transform = Transform3D(1, 0, 0, 0, 1.13635, 0, 0, 0, 1, -2, 2.69662, -2)
 
+[node name="coxa" parent="coxa" instance=ExtResource("2_em1po")]
+transform = Transform3D(1, 0, 0, 0, 1.13635, 0, 0, 0, 1, 2.47412, 0.941412, 2.18954)
+
 [node name="abdomen" parent="." instance=ExtResource("1_2jcph")]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 1.01418, 8.69767, -2.8593)
+
+[node name="coxa2" parent="." instance=ExtResource("2_em1po")]
+transform = Transform3D(1, 0, 0, 0, 1.13635, 0, 0, 0, 1, -2, 2.69662, 0.466998)
