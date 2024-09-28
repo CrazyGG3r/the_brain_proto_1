@@ -1,0 +1,21 @@
+[gd_scene load_steps=4 format=3 uid="uid://c5lhqwp3exotw"]
+
+[sub_resource type="PhysicsMaterial" id="PhysicsMaterial_2hswv"]
+
+[sub_resource type="BoxMesh" id="BoxMesh_yywu4"]
+size = Vector3(5, 1, 5)
+
+[sub_resource type="ConvexPolygonShape3D" id="ConvexPolygonShape3D_4ey2o"]
+points = PackedVector3Array(2.53919, 0.571429, 2.53869, -2.35782, -0.5, -2.35735, -2.35782, -0.5, 2.35735, -2.53919, 0.571429, -2.53869, 2.35782, -0.5, -2.35735, -2.53919, 0.571429, 2.53869, 2.53919, 0.571429, -2.53869, 2.35782, -0.5, 2.35735)
+
+[node name="abdomen" type="Node3D"]
+
+[node name="StaticBody3D" type="StaticBody3D" parent="."]
+physics_material_override = SubResource("PhysicsMaterial_2hswv")
+metadata/_edit_group_ = true
+
+[node name="MeshInstance3D" type="MeshInstance3D" parent="StaticBody3D"]
+mesh = SubResource("BoxMesh_yywu4")
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="StaticBody3D"]
+shape = SubResource("ConvexPolygonShape3D_4ey2o")

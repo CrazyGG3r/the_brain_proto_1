@@ -1,0 +1,12 @@
+[gd_scene load_steps=3 format=3 uid="uid://clkrufcjppiee"]
+
+[ext_resource type="PackedScene" uid="uid://c5lhqwp3exotw" path="res://Scenes/abdomen.tscn" id="1_2jcph"]
+[ext_resource type="PackedScene" uid="uid://dbbldbt7tstkj" path="res://Scenes/coxa.tscn" id="2_em1po"]
+
+[node name="hexa1" type="Node3D"]
+
+[node name="coxa" parent="." instance=ExtResource("2_em1po")]
+transform = Transform3D(1, 0, 0, 0, 1.13635, 0, 0, 0, 1, -2, 2.69662, -2)
+
+[node name="abdomen" parent="." instance=ExtResource("1_2jcph")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 1.01418, 8.69767, -2.8593)
