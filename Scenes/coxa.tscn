@@ -1,4 +1,6 @@
-[gd_scene load_steps=4 format=3 uid="uid://dbbldbt7tstkj"]
+[gd_scene load_steps=5 format=3 uid="uid://dbbldbt7tstkj"]
+
+[ext_resource type="Script" path="res://Scenes/coxa.gd" id="1_hn1kp"]
 
 [sub_resource type="PhysicsMaterial" id="PhysicsMaterial_skew2"]
 
@@ -10,6 +12,7 @@ points = PackedVector3Array(0.571429, 2.53869, 0.571429, -0.5, -2.35735, -0.5, -
 
 [node name="coxa" type="Node3D"]
 transform = Transform3D(1, 0, 0, 0, 1.13635, 0, 0, 0, 1, 0, 0, 0)
+script = ExtResource("1_hn1kp")
 
 [node name="StaticBody3D" type="StaticBody3D" parent="."]
 transform = Transform3D(0.907698, 0, 0, 0, 0.907698, 0, 0, 0, 0.907698, 0, 2.36442, 0)
