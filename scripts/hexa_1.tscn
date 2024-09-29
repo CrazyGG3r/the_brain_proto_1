@@ -1,0 +1,8 @@
+[gd_scene load_steps=2 format=3 uid="uid://bjaisdj1evivd"]
+
+[ext_resource type="PackedScene" uid="uid://3rfkfre3ir7w" path="res://assets/hex2.glb" id="1_8mdcq"]
+
+[node name="Hexa 1" type="Node3D"]
+
+[node name="hex2" parent="." instance=ExtResource("1_8mdcq")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -2.38494, 0, -2.13485)
