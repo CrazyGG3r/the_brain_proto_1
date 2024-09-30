@@ -1,0 +1,7 @@
+[gd_scene load_steps=2 format=3 uid="uid://faxpg32coqtv"]
+
+[ext_resource type="PackedScene" uid="uid://u7nuteeejmom" path="res://assets/hex4.glb" id="1_qx1ba"]
+
+[node name="hexithink" type="Node3D"]
+
+[node name="hex4" parent="." instance=ExtResource("1_qx1ba")]

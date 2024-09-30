@@ -1,6 +1,6 @@
 [gd_scene load_steps=5 format=3 uid="uid://dbbldbt7tstkj"]
 
-[ext_resource type="Script" path="res://Scenes/coxa.gd" id="1_hn1kp"]
+[ext_resource type="Script" path="res://scripts/coxa.gd" id="1_hn1kp"]
 
 [sub_resource type="PhysicsMaterial" id="PhysicsMaterial_skew2"]
 

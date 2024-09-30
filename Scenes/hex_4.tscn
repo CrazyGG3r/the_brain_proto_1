@@ -1,0 +1,68 @@
+[gd_scene load_steps=3 format=3 uid="uid://cyibbysrssn6f"]
+
+[ext_resource type="PackedScene" uid="uid://u7nuteeejmom" path="res://assets/hex4.glb" id="1_7sm60"]
+[ext_resource type="Script" path="res://scripts/hex_4.gd" id="2_5w3o0"]
+
+[node name="hex4" instance=ExtResource("1_7sm60")]
+script = ExtResource("2_5w3o0")
+
+[node name="L_tibia_B_2" parent="Armature/Skeleton3D" index="0"]
+transform = Transform3D(0.2, 9.31323e-10, 3.47958e-08, -1.18744e-08, 0.2, 5.99667e-08, -1.2631e-08, -2.38531e-08, 0.5, 0.0321152, -0.0005362, 3.50009)
+
+[node name="L_femur_B_2" parent="Armature/Skeleton3D" index="1"]
+transform = Transform3D(0.2, 9.31323e-10, 3.47958e-08, -1.18744e-08, 0.2, 5.99667e-08, -1.2631e-08, -2.38531e-08, 0.5, 0.0321153, -0.0005362, 2.50009)
+
+[node name="L_coxa_B_2" parent="Armature/Skeleton3D" index="2"]
+transform = Transform3D(0.2, 9.31323e-10, 4.41381e-08, -1.18744e-08, 0.2, 5.99668e-08, -1.63679e-08, -2.38531e-08, 0.5, 0.0321153, -0.000536201, 1.50009)
+
+[node name="L_tibia_A_2" parent="Armature/Skeleton3D" index="3"]
+transform = Transform3D(0.2, 9.31323e-10, -2.49253e-08, -1.18744e-08, 0.2, 5.99668e-08, 1.12575e-08, -2.38531e-08, 0.5, -1.06788, -0.000536287, 3.50009)
+
+[node name="L_femur_A_2" parent="Armature/Skeleton3D" index="4"]
+transform = Transform3D(0.2, 9.31323e-10, -2.49253e-08, -1.18744e-08, 0.2, 5.99668e-08, 1.12575e-08, -2.38531e-08, 0.5, -1.06788, -0.000536288, 2.50009)
+
+[node name="L_coxa_A_2" parent="Armature/Skeleton3D" index="5"]
+transform = Transform3D(0.2, 9.31323e-10, -2.48962e-08, -1.18744e-08, 0.2, 5.99668e-08, 1.12459e-08, -2.38532e-08, 0.5, -1.06788, -0.000536289, 1.50009)
+
+[node name="L_tibia_C_2" parent="Armature/Skeleton3D" index="6"]
+transform = Transform3D(0.2, -1.69384e-08, 6.41512e-08, 2.38651e-08, 0.2, 7.47515e-08, -1.84751e-08, -4.76964e-08, 0.5, 1.03212, -0.000536122, 3.50009)
+
+[node name="L_femur_C_2" parent="Armature/Skeleton3D" index="7"]
+transform = Transform3D(0.2, -1.69384e-08, 6.41512e-08, 2.38651e-08, 0.2, 7.47515e-08, -1.84751e-08, -4.76964e-08, 0.5, 1.03212, -0.000536122, 2.50009)
+
+[node name="L_coxa_C" parent="Armature/Skeleton3D" index="8"]
+transform = Transform3D(0.2, -1.69384e-08, 6.41512e-08, 2.38651e-08, 0.2, 7.47516e-08, -1.84751e-08, -4.76964e-08, 0.5, 1.03212, -0.000536122, 1.50009)
+
+[node name="R_tibia_B_2" parent="Armature/Skeleton3D" index="9"]
+transform = Transform3D(0.2, -1.32131e-08, -3.98637e-08, 2.26428e-08, 0.2, 1.89667e-08, 1.88384e-08, 2.01173e-09, 0.5, 0.0321155, -0.000536126, -3.49991)
+
+[node name="R_femur_B_2" parent="Armature/Skeleton3D" index="10"]
+transform = Transform3D(0.2, -1.32713e-08, -3.99801e-08, 2.2701e-08, 0.2, 1.89615e-08, 1.8885e-08, 2.01173e-09, 0.5, 0.0321155, -0.000536148, -2.49991)
+metadata/_edit_group_ = true
+
+[node name="R_femur_B_2" parent="Armature/Skeleton3D/R_femur_B_2" index="0"]
+transform = Transform3D(1, 1.50151e-14, 0, -3.58087e-15, 1, 0, -3.55271e-15, -4.44089e-16, 1, 0, 0, 0)
+
+[node name="R_coxa_B_2" parent="Armature/Skeleton3D" index="11"]
+transform = Transform3D(0.2, -1.31549e-08, -3.99691e-08, 2.25846e-08, 0.2, 1.89861e-08, 1.88806e-08, 2.01173e-09, 0.5, 0.0321155, -0.000536169, -1.49991)
+
+[node name="R_tibia_A_2" parent="Armature/Skeleton3D" index="12"]
+transform = Transform3D(0.2, -7.27596e-09, -4.0071e-08, 1.07684e-08, 0.2, 1.23357e-07, 1.30062e-08, -3.37667e-08, 0.5, -1.06788, -0.000536319, -3.49991)
+
+[node name="R_femur_A_2" parent="Armature/Skeleton3D" index="13"]
+transform = Transform3D(0.2, 4.01051e-08, 6.26477e-08, -3.06754e-08, 0.2, 6.43391e-08, -2.81583e-08, -9.92486e-09, 0.5, -1.06788, -0.000536311, -2.49991)
+
+[node name="R_coxa_A_2" parent="Armature/Skeleton3D" index="14"]
+transform = Transform3D(0.2, -1.93249e-08, -3.99976e-08, 2.27592e-08, 0.2, 3.39497e-08, 1.2955e-08, 1.99608e-09, 0.5, -1.06788, -0.000536302, -1.49991)
+
+[node name="R_tibia_C_2" parent="Armature/Skeleton3D" index="15"]
+transform = Transform3D(0.2, -1.92667e-08, -3.98927e-08, 2.27592e-08, 0.2, 3.39495e-08, 1.29363e-08, 1.99604e-09, 0.5, 1.03212, -0.000536152, -3.49991)
+
+[node name="R_femur_C_2" parent="Armature/Skeleton3D" index="16"]
+transform = Transform3D(0.2, -1.92667e-08, -3.98927e-08, 2.27592e-08, 0.2, 3.39495e-08, 1.29363e-08, 1.99604e-09, 0.5, 1.03212, -0.000536143, -2.49991)
+
+[node name="R_coxa_C" parent="Armature/Skeleton3D" index="17"]
+transform = Transform3D(0.2, -1.92085e-08, -3.98812e-08, 2.2701e-08, 0.2, 3.39494e-08, 1.29317e-08, 1.99606e-09, 0.5, 1.03212, -0.000536135, -1.49991)
+
+[node name="Abdomen" parent="Armature/Skeleton3D" index="18"]
+transform = Transform3D(1, -2.0309e-07, -4.65661e-10, 1.54507e-07, 1, 1.62981e-09, 2.32831e-10, -1.39698e-09, 1, 0.0321158, -0.000536202, 8.7033e-05)
